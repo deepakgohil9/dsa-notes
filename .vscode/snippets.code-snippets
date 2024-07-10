@@ -1,0 +1,40 @@
+{
+	"boilerplate": {
+		"prefix": "boilerplate",
+		"body": [
+			"---",
+			"title: ${TM_FILENAME_BASE/(\\d+).?([a-zA-Z]+)-|[\\d+.-]/${2:/capitalize} /g}",
+			"---",
+			"",
+			"### Question",
+			"",
+			"${2:Insert question}",
+			"",
+			"## Optimal Approach",
+			"",
+			"### Concept",
+			"",
+			"${3:Insert concept}",
+			"",
+			"### Steps",
+			"",
+			"${4:Insert steps}",
+			"",
+			"### Code",
+			"",
+			"```cpp \\[${5:Insert code title}]",
+			"${6:Insert code}",
+			"```",
+			"",
+			"### Complexity",
+			"",
+			"|                  | Best Case | Average | Worst Case |",
+			"| ---------------- | --------- | ------- | ---------- |",
+			"| Time Complexity  | `${7|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${8|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${9|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
+			"| Space Complexity | `${10|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${11|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${12|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
+			""
+		],
+		"description": "DSA notes page boilerplate template.",
+		"scope": "markdown"
+	}
+}
