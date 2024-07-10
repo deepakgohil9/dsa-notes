@@ -22,5 +22,5 @@ Beautifully designed and concise notes for Data Structure and Algorithms.<br> Al
 ::
 
 <div class="border rounded-lg shadow-md">
-  <iframe src="/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
+  <iframe src="https://deepakgohil9.github.io/dsa-notes/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
 </div>
