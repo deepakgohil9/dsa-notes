@@ -30,11 +30,117 @@
 			"",
 			"|                  | Best Case | Average | Worst Case |",
 			"| ---------------- | --------- | ------- | ---------- |",
-			"| Time Complexity  | `${7|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${8|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${9|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
-			"| Space Complexity | `${10|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${11|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${12|O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
+			"| Time Complexity  | `${7| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${8| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${9| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
+			"| Space Complexity | `${10| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`   | `${11| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}` | `${12| ,O(n!),O(2ⁿ),O(n²),O(nlogn),O(n),O(logn),O(1)|}`    |",
 			""
 		],
 		"description": "DSA notes page boilerplate template.",
+		"scope": "markdown"
+	},
+	"info-alert": {
+		"prefix": "info_alert",
+		"body": [
+			"::alert{type=\"info\" icon=\"lucide:info\"}",
+			"${1}",
+			"::"
+		],
+		"description": "Alert",
+		"scope": "markdown"
+	},
+	"success-alert": {
+		"prefix": "success_alert",
+		"body": [
+			"::alert{type=\"success\" icon=\"lucide:success\"}",
+			"${1}",
+			"::"
+		],
+		"description": "Alert",
+		"scope": "markdown"
+	},
+	"warning-alert": {
+		"prefix": "warning_alert",
+		"body": [
+			"::alert{type=\"warning\" icon=\"lucide:triangle-alert\"}",
+			"${1}",
+			"::"
+		],
+		"description": "Alert",
+		"scope": "markdown"
+	},
+	"danger-alert": {
+		"prefix": "danger_alert",
+		"body": [
+			"::alert{type=\"danger\" icon=\"lucide:circle-x\"}",
+			"${1}",
+			"::"
+		],
+		"description": "Alert",
+		"scope": "markdown"
+	},
+	"alert": {
+		"prefix": "normal_alert",
+		"body": [
+			"::alert{icon=\"lucide:info\"}",
+			"${1}",
+			"::"
+		],
+		"description": "Alert",
+		"scope": "markdown"
+	},
+	"n-factorial": {
+		"prefix": "n_factorial",
+		"body": [
+			"O(n!)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"two-raise-to-n": {
+		"prefix": "two_raise_to_n",
+		"body": [
+			"O(2ⁿ)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"n-square": {
+		"prefix": "n_square",
+		"body": [
+			"O(n²)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"nlogn": {
+		"prefix": "nlogn",
+		"body": [
+			"O(nlogn)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"n": {
+		"prefix": "n",
+		"body": [
+			"O(n)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"logn": {
+		"prefix": "logn",
+		"body": [
+			"O(logn)",
+		],
+		"description": "Complexity",
+		"scope": "markdown"
+	},
+	"one": {
+		"prefix": "one",
+		"body": [
+			"O(1)",
+		],
+		"description": "Complexity",
 		"scope": "markdown"
 	}
 }
